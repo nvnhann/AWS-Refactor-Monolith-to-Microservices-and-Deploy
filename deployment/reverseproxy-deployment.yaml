@@ -16,7 +16,7 @@ spec:
       name: backend-user
     spec:
       containers:
-      - image: nvnhan/reverseproxy:v1
+      - image: nvnhan/udagram-reverseproxy:v1
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
